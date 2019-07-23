@@ -186,7 +186,7 @@ module.exports = {
     description: 'Go 经典书籍《The Way To Go》的中文译本。',
     head: [
         ['link', { rel: 'icon', href: '/logo.png' }],
-        // ['link', { rel: 'manifest', href: '/manifest.json' }],
+        ['link', { rel: 'manifest', href: '/manifest.json' }],
     ],
     themeConfig: {
         displayAllHeaders: true, // 默认值：false
@@ -198,7 +198,7 @@ module.exports = {
         sidebar: pagelist,
         sidebarDepth: 2 ,
     },
+    // PWA
+    serviceWorker: true,
 
-
-    lastUpdated: 'Last Updated',
 }
