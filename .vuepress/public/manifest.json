@@ -2,10 +2,10 @@
     "name": "Go 入门指南",
     "short_name": "TheWayToGO",
     "start_url": "/",
-    "display": "standalone",
-    "background_color": "#2196f3",
+    "display": "fullscreen",
+    "background_color": "#ffffff",
     "description": "Go 经典书籍《The Way To Go》的中文译本。",
-    "theme_color": "blue",
+    "theme_color": "white",
     "icons": [
       {
         "src": "./logo.png",
